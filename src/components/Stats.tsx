@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Stats = () => {
-  const stats = [
+   const stats = [
     { number: '500+', label: 'Happy Clients', description: 'Businesses trust us globally' },
     { number: '150+', label: 'Countries Served', description: 'Worldwide coverage' },
     { number: '10K+', label: 'Shipments Delivered', description: 'Successfully completed' },
@@ -40,4 +40,4 @@ const Stats = () => {
   );
 };
 
-export default Stats;
+ export default Stats;

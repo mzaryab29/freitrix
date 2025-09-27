@@ -19,12 +19,12 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-blue-700 text-white px-8 py-4 rounded-lg hover:bg-blue-800 transition-all duration-200 flex items-center justify-center group">
-                Get Instant Quote
+                Get Quote
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-blue-700 hover:text-blue-700 transition-colors duration-200">
+              {/* <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-blue-700 hover:text-blue-700 transition-colors duration-200">
                 Track Shipment
-              </button>
+              </button> */}
             </div>
           </div>
 

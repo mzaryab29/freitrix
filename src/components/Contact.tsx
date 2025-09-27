@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-white-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -45,8 +45,9 @@ const Contact = () => {
                 <Phone className="h-6 w-6 text-blue-700 mt-1 mr-4" />
                 <div>
                   <p className="font-medium text-gray-900">Phone</p>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
-                  <p className="text-gray-600">+1 (555) 987-6543</p>
+                  <p className="text-gray-600">+92 42 35775672</p>
+                  <p className="text-gray-600">+92 42 35775673</p>
+                  <p className="text-gray-600">+92 42 35775674</p>
                 </div>
               </div>
 
@@ -55,7 +56,7 @@ const Contact = () => {
                 <div>
                   <p className="font-medium text-gray-900">Email</p>
                   <p className="text-gray-600">info@freitrix.com</p>
-                  <p className="text-gray-600">quotes@freitrix.com</p>
+              
                 </div>
               </div>
 
@@ -63,18 +64,18 @@ const Contact = () => {
                 <MapPin className="h-6 w-6 text-blue-700 mt-1 mr-4" />
                 <div>
                   <p className="font-medium text-gray-900">Office</p>
-                  <p className="text-gray-600">123 Logistics Avenue<br />Business District<br />New York, NY 10001</p>
+                  <p className="text-gray-600">Office# 315, Floor# 3,<br />Landmark Plaza,<br />Jail Road, Lahore, Pakistan</p>
                 </div>
               </div>
 
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <Clock className="h-6 w-6 text-blue-700 mt-1 mr-4" />
                 <div>
                   <p className="font-medium text-gray-900">Business Hours</p>
                   <p className="text-gray-600">Mon - Fri: 8:00 AM - 6:00 PM</p>
                   <p className="text-gray-600">24/7 Emergency Support</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

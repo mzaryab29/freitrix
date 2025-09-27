@@ -12,15 +12,15 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
+    <header className="bg-white/100 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img 
               src="/freitrix-logo.png" 
               alt="Freitrix Logo" 
-              className="h-16 w-auto"
+              className="h-20 w-auto"
             />
           </div>
 
@@ -30,12 +30,12 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-600 hover:text-blue-700 font-medium transition-colors duration-200"
+                className="text-gray-600 hover:text-blue-700 font-medium text-lg transition-colors duration-200"
               >
                 {item.name}
               </a>
             ))}
-            <button className="bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition-colors duration-200">
+            <button className="bg-blue-700 text-white px-6 py-3 text-lg rounded-lg hover:bg-blue-800 transition-colors duration-200">
               Get Quote
             </button>
           </div>

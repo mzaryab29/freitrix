@@ -51,7 +51,7 @@ const About = () => {
                 the entire logistics journey.
               </p>
             </div>
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <div className="flex -space-x-2">
                 <div className="w-10 h-10 bg-blue-500 rounded-full border-2 border-white"></div>
                 <div className="w-10 h-10 bg-emerald-500 rounded-full border-2 border-white"></div>
@@ -64,7 +64,7 @@ const About = () => {
                 <p className="text-sm font-medium text-gray-900">Expert Team</p>
                 <p className="text-sm text-gray-500">Logistics professionals ready to help</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Values Grid */}
