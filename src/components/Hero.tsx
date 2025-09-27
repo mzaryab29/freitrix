@@ -37,8 +37,8 @@ const Hero = () => {
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <Shield className="h-10 w-10 text-emerald-600 mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Secure & Insured</h3>
-              <p className="text-gray-600">Full insurance coverage and secure handling of your cargo.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Safe and Secure</h3>
+              <p className="text-gray-600">Safe and secure handling of your cargo.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <Zap className="h-10 w-10 text-amber-500 mb-4" />

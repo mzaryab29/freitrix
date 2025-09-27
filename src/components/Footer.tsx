@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-3 text-blue-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+92 42 35775672-4</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-3 text-blue-400" />
@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-3 mt-1 text-blue-400" />
-                <span>123 Logistics Avenue<br />New York, NY 10001</span>
+                <span>Office# 315, Floor# 3,<br /> Landmark Plaza,<br />Jail Road, Lahore, Pakistan</span>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Freitrix. All rights reserved.
+              © 2025 Freitrix. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
